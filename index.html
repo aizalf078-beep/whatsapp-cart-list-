@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Desktop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wa-app">
+
+  <aside class="wa-sidebar">
+
+    <header class="wa-sidebar-header">
+      <h2 class="wa-logo">WhatsApp</h2>
+      <div class="wa-header-icons">
+        <button class="wa-icon-button">✎</button>
+        <button class="wa-icon-button">⋮</button>
+      </div>
+    </header>
+
+    <div class="wa-search-area">
+      <input class="wa-search-input"
+        type="text" placeholder="⌕  Search or start a new chat">
+    </div>
+
+    <nav class="wa-filter-list">
+      <button class="wa-filter wa-filter-active">All</button>
+      <button class="wa-filter">Unread</button>
+      <button class="wa-filter">Favorites</button>
+      <button class="wa-filter">Groups</button>
+    </nav>
+
+    <div class="wa-archive-row">
+      <span>▣</span>
+      <span>Archived</span>
+      <span class="wa-archive-count">2</span>
+    </div>
+
+    <section class="wa-contact-list">
+
+      <article class="wa-contact wa-contact-selected">
+        <div class="wa-avatar wa-avatar-green">A</div>
+        <div class="wa-contact-info">
+          <div class="wa-contact-top">
+            <h3>Ayesha Khan</h3>
+            <time>10:30 AM</time>
+          </div>
+          <p>Hey! How are you doing? 😊</p>
+        </div>
+      </article>
+
+      <article class="wa-contact">
+        <div class="wa-avatar wa-avatar-blue">M</div>
+        <div class="wa-contact-info">
+          <div class="wa-contact-top">
+            <h3>Muhammad Ali</h3>
+            <time>10:15 AM</time>
+          </div>
+          <p>Okay, see you tomorrow!</p>
+        </div>
+        <span class="wa-unread">2</span>
+      </article>
+
+      <article class="wa-contact">
+        <div class="wa-avatar wa-avatar-pink">S</div>
+        <div class="wa-contact-info">
+          <div class="wa-contact-top">
+            <h3>Sara Ahmed</h3>
+            <time>9:45 AM</time>
+          </div>
+          <p>📷 Photo</p>
+        </div>
+      </article>
+
+      <article class="wa-contact">
+        <div class="wa-avatar wa-avatar-orange">F</div>
+        <div class="wa-contact-info">
+          <div class="wa-contact-top">
+            <h3>Family Group</h3>
+            <time>9:20 AM</time>
+          </div>
+          <p>Mom: Come home early</p>
+        </div>
+        <span class="wa-unread">5</span>
+      </article>
+
+      <article class="wa-contact">
+        <div class="wa-avatar wa-avatar-purple">H</div>
+        <div class="wa-contact-info">
+          <div class="wa-contact-top">
+            <h3>Hassan Raza</h3>
+            <time>Yesterday</time>
+          </div>
+          <p>Thanks bro 👍</p>
+        </div>
+      </article>
+
+      <article class="wa-contact">
+        <div class="wa-avatar wa-avatar-teal">C</div>
+        <div class="wa-contact-info">
+          <div class="wa-contact-top">
+            <h3>Classmates</h3>
+            <time>Yesterday</time>
+          </div>
+          <p>You: Assignment completed</p>
+        </div>
+        <span class="wa-unread">1</span>
+      </article>
+
+      <article class="wa-contact">
+        <div class="wa-avatar wa-avatar-yellow">U</div>
+        <div class="wa-contact-info">
+          <div class="wa-contact-top">
+            <h3>Usman Ahmed</h3>
+            <time>Monday</time>
+          </div>
+          <p>Thank you so much!</p>
+        </div>
+      </article>
+
+    </section>
+  </aside>
+
+  <main class="wa-chat-window">
+
+    <header class="wa-chat-header">
+      <div class="wa-avatar wa-avatar-green">A</div>
+      <div class="wa-chat-user">
+        <h3>Ayesha Khan</h3>
+        <p>online</p>
+      </div>
+      <div class="wa-chat-actions">
+        <button>⌕</button>
+        <button>⋮</button>
+      </div>
+    </header>
+
+    <section class="wa-messages">
+
+      <div class="wa-date-divider">
+        <span>TODAY</span>
+      </div>
+
+      <div class="wa-message wa-message-received">
+        <p>Hey! 👋</p>
+        <span>10:25 AM</span>
+      </div>
+
+      <div class="wa-message wa-message-received">
+        <p>How are you doing?</p>
+        <span>10:26 AM</span>
+      </div>
+
+      <div class="wa-message wa-message-sent">
+        <p>I'm good, thank you! 😊</p>
+        <span>10:27 AM ✓✓</span>
+      </div>
+
+      <div class="wa-message wa-message-sent">
+        <p>What about you?</p>
+        <span>10:28 AM ✓✓</span>
+      </div>
+
+      <div class="wa-message wa-message-received">
+        <p>I'm doing great!</p>
+        <span>10:29 AM</span>
+      </div>
+
+      <div class="wa-message wa-message-received">
+        <p>Hey! How are you doing? 😊</p>
+        <span>10:30 AM</span>
+      </div>
+
+      <div class="wa-message wa-message-sent">
+        <p>Everything is going well! 👍</p>
+        <span>10:31 AM ✓✓</span>
+      </div>
+
+    </section>
+
+    <form class="wa-message-composer">
+      <button type="button" class="wa-emoji-button">☺</button>
+      <button type="button" class="wa-attach-button">＋</button>
+      <input type="text" placeholder="Type a message"
+        class="wa-message-input">
+      <button type="button" class="wa-mic-button">🎙</button>
+    </form>
+
+  </main>
+</div>
+
+</body>
+</html>
